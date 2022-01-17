@@ -1,0 +1,44 @@
+.required_label {
+    display: block;
+}
+
+.required_label:after {
+    content: ' *';
+    color: red;
+    font-weight: bold;
+}
+
+
+.require:after{
+    content:'*';
+    color:red;
+    padding-left:5px;
+}
+
+
+.error {
+    color: red;
+}
+
+.preview-image {
+    width: 150px;
+    height: 150px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.navigation {
+        padding: 0 !important;
+}
+.sidebar-default .navigation > li.active > a,
+.sidebar-default .navigation > li.active > a:hover,
+.sidebar-default .navigation > li.active > a:focus {
+        background-color: #EF5350 !important ;
+        color: #fff !important;
+}
